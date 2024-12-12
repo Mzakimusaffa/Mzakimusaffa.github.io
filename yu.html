@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keranjang Belanja</title>
+    <link rel="stylesheet" href="yu.css" />
+    <link rel="stylesheet" href="fakeLoader.css">
+  </head>
+  <body>
+    <header>
+        <h2 class="logo">BROWNIES CAKE</h2>
+        <nav class="navigation">
+          <a href="website.html">Home</a>
+          <a href="hiii.html">Menu</a>
+          <a href="wcontact.html">Contact</a>
+          <a href="#">About</a>
+          <a href="">🛒</a>
+          <a href="aji.html">Login</a></button>
+        </nav>
+      </header>
+
+    <div class="cart-container">
+      <h1>Keranjang Belanja</h1>
+      <div class="cart-item">
+        <input type="checkbox" class="select-item" />
+        <img src="Brownies-Toping-Kacang-Tanah.png" alt="Product Image" />
+        <div class="item-details">
+          <h2>Brownies Kacang</h2>
+          <p>Deskripsi singkat produk</p>
+        </div>
+        <div class="item-price">
+          <p>Rp 30.000</p>
+        </div>
+        <div class="item-quantity">
+          <button class="decrease">-</button>
+          <input type="text" value="1" />
+          <button class="increase">+</button>
+        </div>
+        <div class="item-total">
+          <p>Rp 30.000</p>
+        </div>
+        <button class="delete-item">Hapus</button>
+      </div>
+      <div class="cart-item">
+        <input type="checkbox" class="select-item" />
+        <img src="BROWNIES FUDGY.jpg" alt="Product Image" />
+        <div class="item-details">
+          <h2>Brownies Fudgy es</h2>
+          <p>Deskripsi singkat produk</p>
+        </div>
+        <div class="item-price">
+          <p>Rp 75.000</p>
+        </div>
+        <div class="item-quantity">
+          <button class="decrease">-</button>
+          <input type="text" value="1" />
+          <button class="increase">+</button>
+        </div>
+        <div class="item-total">
+          <p>Rp 75.000</p>
+        </div>
+        <button class="delete-item">Hapus</button>
+      </div>
+      <div class="cart-item">
+        <input type="checkbox" class="select-item" />
+        <img src="Brownie-Blondies-fetaured-image.jpg" alt="Product Image" />
+        <div class="item-details">
+          <h2>Brownies Blondies</h2>
+          <p>Deskripsi singkat produk</p>
+        </div>
+        <div class="item-price">
+          <p>Rp 55.000</p>
+        </div>
+        <div class="item-quantity">
+          <button class="decrease">-</button>
+          <input type="text" value="1" />
+          <button class="increase">+</button>
+        </div>
+        <div class="item-total">
+          <p>Rp 55.000</p>
+        </div>
+        <button class="delete-item">Hapus</button>
+      </div>
+      <div class="cart-item">
+        <input type="checkbox" class="select-item" />
+        <img
+          src="espresso-brownies-recipe-12-500x500.jpg"
+          alt="Product Image"
+        />
+        <div class="item-details">
+          <h2>Brownies Esspreso</h2>
+          <p>Deskripsi singkat produk</p>
+        </div>
+        <div class="item-price">
+          <p>Rp 31.000</p>
+        </div>
+        <div class="item-quantity">
+          <button class="decrease">-</button>
+          <input type="text" value="1" />
+          <button class="increase">+</button>
+        </div>
+        <div class="item-total">
+          <p>Rp 31.000</p>
+        </div>
+        <button class="delete-item">Hapus</button>
+      </div>
+      <div class="cart-summary">
+        <h2>Total</h2>
+        <p>Total Harga: <span>Rp 0</span></p>
+        <button class="checkout-button">Checkout</button>
+      </div>
+    </div>
+    <div class="fakeLoader"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="loader.js"></script>
+    <script>
+    $(document).ready(function () {
+        $.fakeLoader({
+            bgColor: '#3E3232',
+            spinner:"spinner7"
+        });
+    });
+    </script> 
+  </body>
+</html>

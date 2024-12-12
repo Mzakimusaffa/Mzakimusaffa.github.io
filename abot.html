@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website</title>
+    <link rel="stylesheet" href="abot.css" />
+    <link rel="stylesheet" href="fakeLoader.css" />
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">BROWNIES CAKE</h2>
+      <nav class="navigation">
+        <a href="website.html">Home</a>
+        <a href="hiii.html">Menu</a>
+        <a href="checkout.html">Order Now</a>
+        <a href="wcontact.html">Contact</a>
+        <a href="abot.html">About</a>
+        <a href="form2.html">Login</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <div class="about-wrapper container">
+        <div class="about-text">
+          <p class="small">About Us</p>
+          <h2>We make delicious chocolate bread</h2>
+          <p>
+            Nama ”brownies” diambil dari “the deep brown color of cookie”.
+            Brownies punya ciri khas warna cokelat tua kehitaman. Brownies
+            adalah semacam cake biasa akan tetapi menggunakan coklat batangan
+            yang dilelehkan dan mempunyai rasa manis dan bertekstur padat atau
+            bantat.
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="brownie-dessert-cake-sweet-45202.webp" alt="food" />
+        </div>
+      </div>
+    </section>
+    <div class="fakeLoader"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="loader.js"></script>
+    <script>
+      $(document).ready(function () {
+        $.fakeLoader({
+          bgColor: "#3E3232",
+          spinner: "spinner7",
+        });
+      });
+    </script>
+  </body>
+</html>
