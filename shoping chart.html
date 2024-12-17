@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="shoping chart.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Keranjang Saya</h1>
+
+        <div class="products">
+            <div class="product" data-name="Kecap" data-price="5000">
+                <h3>Brownies Kacang</h3>
+                <img src="Brownies-Toping-Kacang-Tanah.png" width="100px" height="100px">
+                <p>Harga: Rp.30.000</p>
+                <button class="add-to-cart">Tambah ke Keranjang</button>
+            </div>
+            <div class="product" data-name="Garam" data-price="8000">
+                <h3>Brownies Fudgy Es</h3>
+                <img src="BROWNIES FUDGY.jpg" width="100px" height="100px">
+                <p>Harga: Rp.75.000</p>
+                <button class="add-to-cart">Tambah ke Keranjang</button>
+            </div>
+            <div class="product" data-name="Garam" data-price="2000">
+                <h3>Brownies Blondies</h3>
+                <img src="Brownie-Blondies-fetaured-image.jpg" width="100px" height="100px">
+                <p>Harga: Rp.55.000</p>
+                <button class="add-to-cart">Tambah ke Keranjang</button>
+            </div>
+            <div class="product" data-name="Minyak" data-price="16000">
+                <h3>Brownies Esspreso</h3>
+                <img src="espresso-brownies-recipe-12-500x500.jpg" width="100px" height="100px">
+                <p>Harga: Rp.31.000</p>
+                <button class="add-to-cart">Tambah ke Keranjang</button>
+            </div>
+            <div class="cart">
+                <h2>Keranjang Belanja</h2>
+                <ul id="cart-items">
+                   
+                </ul>
+                <p>Total: Rp <span id="total-price">0</span></p>
+                <button id="clear-cart">Kosongkan Keranjang</button>
+                <a href="pesan sembako.html" class="button">Pesan Sekarang</a>
+    
+            </div>
+        </div>
+        <script src="js/chart.js"></script>
+        <button id="chart">
+            <a href="hah.html"><i class="fas fa-arrow-left fa-2x"></i></a>
+          </button>
+    </body>
+    </html>
